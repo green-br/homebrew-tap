@@ -2,8 +2,10 @@
 class Clifton < Formula
   desc "SSH connection manager"
   homepage "https://github.com/isambard-sc/clifton"
-  url "https://github.com/isambard-sc/clifton/archive/refs/tags/0.1.0.tar.gz"
-  sha256 "2e3908a984c43124efc3a0acdabd77dea7fe6faeb8be665a45865b351745f1ae"
+  head "https://github.com/isambard-sc/clifton.git", branch: "master"
+  url "https://github.com/isambard-sc/clifton.git",
+      tag: "0.1.0",
+      revision: "d78005504738b327f78aa373a3a281d69d79d2e6"
   license "MIT"
 
   depends_on "rust" => :build
