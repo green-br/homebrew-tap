@@ -4,8 +4,8 @@ class Clifton < Formula
   homepage "https://github.com/isambard-sc/clifton"
   head "https://github.com/isambard-sc/clifton.git", branch: "master"
   url "https://github.com/isambard-sc/clifton.git",
-      tag: "0.2.0",
-      revision: "3126052d46c659e44ca5a0b95314946fbaa1bb3c"
+      tag: "0.3.0",
+      revision: "d4433b333696df3d8342b62fbb6348823a1b2042"
   license "MIT"
 
   depends_on "rust" => :build
